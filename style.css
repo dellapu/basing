@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    background:linear-gradient(#704264, #BB8493, #C65BCF);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: grid;
+    position: relative;
+}
+.value{
+    height: 80px;
+    width: 240px;
+    text-align: right;
+    font-size: 20px;
+    padding: 20px;
+    grid-column: span 4;
+}
+.form span{
+    height: 70px;
+    width: 60px;
+    background-color: #f3b2faca;
+    color: #0f0e0e;
+    border: 1px solid #0f0e0e ;
+    place-items: center;
+    display: grid;
+}
+.form span.equal{
+    height: 140px;
+    grid-row: span 2;
+    background-color: #FFCDEA;
+}
+.form span.clear{
+    background-color: #FFB1B1;
+}
+.form span:active{
+    background-color: #F3D0D7;
+    color: #b4bee8;
+}
